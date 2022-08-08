@@ -1,0 +1,1 @@
+/home/dpirad007/.config/i3
