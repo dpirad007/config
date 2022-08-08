@@ -1,0 +1,1 @@
+/home/dpirad007/.local/share/omf/themes/sashimi/fish_prompt.fish
