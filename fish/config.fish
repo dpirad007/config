@@ -56,13 +56,16 @@ alias py38="source ~/py38/bin/activate.fish"
 
 # java & android
 set -Ux JAVA_OPTS "-XX:+IgnoreUnrecognizedVMOptions"
-set -Ux JAVA_HOME /usr/lib/jvm/java-8-openjdk
+set -Ux JAVA_HOME /usr/lib/jvm/java-11-openjdk
 set -Ux ANDROID_SDK_ROOT /opt/android-sdk
 set -Ux CHROME_EXECUTABLE /usr/bin/brave
 set -U fish_user_paths /opt/android-sdk/cmdline-tools/latest/bin $fish_user_paths
 set -U fish_user_paths /opt/android-sdk/emulator $fish_user_paths
 set -U fish_user_paths /opt/android-sdk/platform-tools $fish_user_paths
-alias pixel "emulator @pixel_8.0 -no-boot-anim -netdelay none -no-snapshot -wipe-data -skin 1080x1920"
+alias pixel 'emulator @pixel_9.0 -no-boot-anim -netdelay none -no-snapshot -wipe-data -skin 1080x1920'
+
+
+
 
 # git
 # alias addup='git add -u'
@@ -79,6 +82,7 @@ alias pixel "emulator @pixel_8.0 -no-boot-anim -netdelay none -no-snapshot -wipe
 
 # path
 fish_add_path ~/.cargo/bin
+fish_add_path  ~/.pub-cache/bin
 
 
 # check all stored paths -> run on terminal

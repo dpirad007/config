@@ -3,7 +3,7 @@
 SETUVAR --export ANDROID_SDK_CMDLINE:/opt/android\x2dsdk/cmdline\x2dtools
 SETUVAR --export ANDROID_SDK_ROOT:/opt/android\x2dsdk
 SETUVAR --export CHROME_EXECUTABLE:/usr/bin/brave
-SETUVAR --export JAVA_HOME:/usr/lib/jvm/java\x2d8\x2dopenjdk
+SETUVAR --export JAVA_HOME:/usr/lib/jvm/java\x2d11\x2dopenjdk
 SETUVAR --export JAVA_OPTS:\x2dXX\x3a\x2bIgnoreUnrecognizedVMOptions
 SETUVAR __fish_initialized:3400
 SETUVAR fish_color_autosuggestion:\x237d7d7d
@@ -34,4 +34,4 @@ SETUVAR fish_pager_color_description:B3A06D\x1eyellow
 SETUVAR fish_pager_color_prefix:normal\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
 SETUVAR fish_pager_color_selected_background:\x2dr
-SETUVAR fish_user_paths:/home/dpirad007/\x2ecargo/bin\x1e/opt/android\x2dsdk/platform\x2dtools\x1e/opt/android\x2dsdk/emulator\x1e/opt/android\x2dsdk/cmdline\x2dtools/latest/bin\x1e/home/dpirad007/\x2elocal/bin\x1e/home/dpirad007/Applications
+SETUVAR fish_user_paths:/home/dpirad007/\x2epub\x2dcache/bin\x1e/home/dpirad007/\x2ecargo/bin\x1e/opt/android\x2dsdk/platform\x2dtools\x1e/opt/android\x2dsdk/emulator\x1e/opt/android\x2dsdk/cmdline\x2dtools/latest/bin\x1e/home/dpirad007/\x2elocal/bin\x1e/home/dpirad007/Applications
