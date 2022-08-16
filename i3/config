@@ -469,7 +469,7 @@ bindsym control+mod1+g exec --no-startup-id chromium;focus
 
 # Text Editor
 # bindsym $mod+F2 exec --no-startup-id geany;focus
-bindsym $mod+F2 exec --no-startup-id emacs;focus
+bindsym $mod+F2 exec --no-startup-id code;focus
 
 # Basic Draw Tool
 bindsym $mod+F3 exec --no-startup-id inkscape;focus
@@ -776,3 +776,7 @@ bindsym --release $mod+Shift+Print exec scrot -s 'screenshot_%Y%m%d_%H%M%S.png' 
 
 # Android Emulator
 for_window [title="^Android Emulator*"] floating enable
+
+# Remove Title Bar I3
+default_border pixel 1
+default_floating_border pixel 1
