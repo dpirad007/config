@@ -62,7 +62,7 @@ set -Ux CHROME_EXECUTABLE /usr/bin/brave
 set -U fish_user_paths /opt/android-sdk/cmdline-tools/latest/bin $fish_user_paths
 set -U fish_user_paths /opt/android-sdk/emulator $fish_user_paths
 set -U fish_user_paths /opt/android-sdk/platform-tools $fish_user_paths
-alias pixel 'emulator @pixel_9.0 -no-boot-anim -netdelay none -no-snapshot -wipe-data -skin 1080x1920'
+alias pixel 'emulator @generic_9.0 -no-boot-anim -netdelay none -no-snapshot -wipe-data -skin 768x1280'
 
 
 
